@@ -10,6 +10,7 @@
 
 Body {
     font-family: 'roboto', sans-serif;
+    text-decoration: none;
     
 }
 
@@ -20,12 +21,22 @@ a:hover {
 button:hover {
     color: var(--background-color);
     background-color: var(--brand-color);
-}
+}  
 
  h1 {
+    position: absolute;
+    width: 696px;
+    height: 120px;
+    left: 452px;
+    top: 280px;
+    width: 696px;
+    height: 120px;
+    left: 452px;
+    top: 280px;
+    
     font-weight: 900;
     font-size: 44px;
-    line-height: 6;
+    line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -60,12 +71,28 @@ button:hover {
     color: var(--main-color);
  }
 
+ ul {
+    list-style-type: none;
+ }
+
 p {
     font-weight: 400;
     font-size: 16px;
     line-height: 3;
     letter-spacing: 0.03em;
     color:var(--secondary-color)
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    width: 1600px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    margin-left: 100px;
+
+    background: var(--background-color)
 }
 
 
@@ -83,6 +110,7 @@ p {
 }
 
 .brand-link {
+    
     text-decoration: none;
     font-family: 'Raleway';
     font-style: normal;
@@ -90,22 +118,29 @@ p {
     font-size: 26px;
     line-height: 3.1;
     letter-spacing: 0.03em;
+    
 
     color: var(--brand-color);
+
+    
 }
 
 .navigation {
-
+    
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.6;
     letter-spacing: 0.02em;
+    margin-right: 20px;
 
     color: var(--main-color)
 }
 
 .contact-top-link {
+    display: flex;
+    
+    margin-left: 10px;
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
@@ -116,6 +151,7 @@ p {
 }
 
 .contact-bottom-link {
+    
     text-decoration: none;
     font-weight: 400;
     font-size: 14px;
@@ -147,4 +183,58 @@ p {
     left: 0px;
     top: 80px;
     background: var(--slider-color);
+}
+
+.slider-button {
+    position: absolute;
+    width: 117px;
+    height: 30px;
+    left: 742px;
+    top: 440px;
+    
+    background-color: var(--brand-color);
+    color: var(--background-color);
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 188%
+    
+}
+
+.portfolio-navigation {
+    display: flex;
+    justify-content: center;
+    
+}
+.navigation-button {
+    margin: 8px;
+    background: #F5F4FA;
+    border-radius: 4px;
+}
+
+.lorem {
+    display: flex;
+}
+
+.what-we-do {
+    display: flex;
+    justify-content: center;
+}
+
+.team {
+    display: flex;
+    align-items: center;
+    width: 1600px;
+    height: 648px;
+    left: 0px;
+    top: 1449px;
+
+    background: #F5F4FA;
+}
+  
+.navigation-list {
+    display: flex;
+    
 }

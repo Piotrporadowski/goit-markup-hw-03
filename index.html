@@ -11,37 +11,51 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    /> 
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <header class="navbar">
-      <a href="#" class="brand-link"> <span class="brand-color">Web</span>
+      <a href="#" class="brand-link">
+        <span class="brand-color">Web</span>
         <span class="black-color">Studio</span>
       </a>
       <nav>
-        <ul>
+        <ul class="navigation-list">
           <li><a class="navigation" href="#">Agencja</a></li>
           <li><a class="navigation" href="./portfolio.html">Portfolio</a></li>
           <li><a class="navigation" href="#">Kontakt</a></li>
         </ul>
       </nav>
-      <ul>
-        <li><a href="mailto:info@devstudio.com" class="contact-top-link">info@devstudio.com</a></li>
-        <li><a href="tel:48111111111" class="contact-top-link">+48 111 111 111</a></li>
+      <ul class="contact-top-link">
+        <li>
+          <a href="mailto:info@devstudio.com" class="contact-top-link"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li>
+          <a href="tel:48111111111" class="contact-top-link">+48 111 111 111</a>
+        </li>
       </ul>
     </header>
 
     <main>
       <!--HERO-->
-      <section class="slider">
-        <div>
+      <section>
+        <div class="slider">
           <h1>efektywne rozwiązania dla waszego biznesu</h1>
-          <button type="slider-button">Zamów usługę</button>
+          <button type="button" class="slider-button">Zamów usługę</button>
         </div>
       </section>
       <!--LOREM IPSUM-->
       <section>
-        <ul>
+        <ul class="lorem">
           <li>
             <h4>Lorem Ipsum</h4>
             <p>
@@ -75,14 +89,14 @@
       <!--CZYM SIE ZAJMUJEMY-->
       <section>
         <h2>czym się zajmujemy</h2>
-        <ul>
+        <ul class="what-we-do">
           <li>
             <img
               src="./images/photo1/obraz1.jpg"
               alt="pisanie na klawiaturze"
               width="370"
               height="294"
-            >
+            />
           </li>
           <li>
             <img
@@ -90,7 +104,7 @@
               alt="tworzenie aplikacji mobilnej"
               width="370"
               height="294"
-            >
+            />
           </li>
           <li>
             <img
@@ -98,20 +112,21 @@
               alt="rysowanie na teblecie"
               width="370"
               height="294"
-            >
+            />
           </li>
         </ul>
       </section>
       <!--NASZ ZESPÓŁ-->
       <section>
-        <ul>
+        <ul class="team">
+          <h2>nasz zespół</h2>
           <li>
             <img
               src="./images/osoby/osoba1.jpg"
               alt="John Doe"
               width="270"
               height="260"
-            >
+            />
             <h3>John Doe</h3>
             <p>Product Designer</p>
           </li>
@@ -121,7 +136,7 @@
               alt="John Doe"
               width="270"
               height="260"
-            >
+            />
             <h3>John Doe</h3>
             <p>Frontend Developer</p>
           </li>
@@ -131,7 +146,7 @@
               alt="John Doe"
               width="270"
               height="260"
-            >
+            />
             <h3>John Doe</h3>
             <p>Marketing</p>
           </li>
@@ -141,7 +156,7 @@
               alt="John Doe"
               width="270"
               height="260"
-            >
+            />
             <h3>John Doe</h3>
             <p>UI Designer</p>
           </li>
@@ -151,7 +166,8 @@
 
     <footer class="footer">
       <div>
-        <a href="#" class="brand-link"> <span class="brand-color">Web</span>
+        <a href="#" class="brand-link">
+          <span class="brand-color">Web</span>
           <span class="white-color">Studio</span>
         </a>
       </div>
@@ -159,12 +175,23 @@
         <div>
           <ul>
             <li>
-              <a href="https://goo.gl/maps/RXUdSUhqYEkcBt6XA" class="address" target="blank"
+              <a
+                href="https://goo.gl/maps/RXUdSUhqYEkcBt6XA"
+                class="address"
+                target="blank"
                 >m. Warszawa, Aleje Jerozolimskie 21</a
               >
             </li>
-            <li><a href="mailto:info@example.com" class="contact-bottom-link">info@example.com</a></li>
-            <li><a href="tel:48111111111" class="contact-bottom-link">+48 111 111 111</a></li>
+            <li>
+              <a href="mailto:info@example.com" class="contact-bottom-link"
+                >info@example.com</a
+              >
+            </li>
+            <li>
+              <a href="tel:48111111111" class="contact-bottom-link"
+                >+48 111 111 111</a
+              >
+            </li>
           </ul>
         </div>
       </address>
