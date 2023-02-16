@@ -11,6 +11,7 @@
 Body {
     font-family: 'roboto', sans-serif;
     text-decoration: none;
+    margin: 0;
     
 }
 
@@ -84,13 +85,13 @@ p {
 }
 
 .navbar {
+    justify-content: space-around;
     display: flex;
     align-items: center;
-    width: 1600px;
     height: 80px;
     left: 0px;
     top: 0px;
-    margin-left: 100px;
+    
 
     background: var(--background-color)
 }
@@ -110,7 +111,7 @@ p {
 }
 
 .brand-link {
-    
+    margin: 10px;
     text-decoration: none;
     font-family: 'Raleway';
     font-style: normal;
@@ -139,7 +140,6 @@ p {
 
 .contact-top-link {
     display: flex;
-    
     margin-left: 10px;
     text-decoration: none;
     font-weight: 500;
@@ -170,15 +170,21 @@ p {
 }
 
 .footer {
-    width: 1600px;
+    
+    display: block;
     height: 252px;
     left: 0px;
     top: 1628px;
     background: var(--slider-color);
 }
+.bottom-logo {
+    margin-left: 100px;
+}
+.bottom-address {
+    margin-left: 70px;
+}
 
 .slider {
-    width: 1600px;
     height: 600px;
     left: 0px;
     top: 80px;
@@ -203,15 +209,19 @@ p {
     
 }
 
-.portfolio-navigation {
+.portfolio-links {
+    align-items: center;
     display: flex;
     justify-content: center;
-    
 }
 .navigation-button {
-    margin: 8px;
+    width: 73px;
+    height: px;
+    left: 639px;
+    top: 174px;
     background: #F5F4FA;
     border-radius: 4px;
+    margin: 10px;
 }
 
 .lorem {
@@ -221,20 +231,38 @@ p {
 .what-we-do {
     display: flex;
     justify-content: center;
+    justify-content: space-around;
+    margin: 0px 170px 0px 130px;
 }
 
 .team {
-    display: flex;
     align-items: center;
-    width: 1600px;
-    height: 648px;
-    left: 0px;
-    top: 1449px;
-
     background: #F5F4FA;
+}
+
+.team-person {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin: 0px 180px 0px 140px;
+    box-sizing: border-box;
+    text-align: center;
 }
   
 .navigation-list {
     display: flex;
+    align-items: center;
     
 }
+
+.card-set {
+    display: flex;
+    /* Make a flex container multiline */
+    flex-wrap: wrap;
+    /* Set gap between rows and columns */
+    gap: 30px;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    margin: 0px 150px 0px 150px;
+  }
