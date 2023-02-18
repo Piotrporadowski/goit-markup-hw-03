@@ -240,6 +240,7 @@ p {
 }
 
 .lorem {
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -261,9 +262,8 @@ p {
 .what-we-do-photo {
     display: flex;
     justify-content: center;
-    justify-content: space-around;
-    margin: 0px 170px 0px 130px;
-    max-width: 1200px;
+    justify-content: space-between;
+    
 }
 
 .team {
@@ -276,8 +276,6 @@ p {
     display: flex;
     justify-content: center;
     justify-content: space-between;
-    margin: 0px 185px 0px 145px;
-    box-sizing: border-box;
     text-align: center;
 }
   
@@ -289,14 +287,11 @@ p {
 
 .card-set {
     display: flex;
-    /* Make a flex container multiline */
     flex-wrap: wrap;
-    /* Set gap between rows and columns */
     gap: 30px;
     padding: 0;
     list-style: none;
     text-align: left;
-    margin: 0px 150px 0px 150px;
     justify-content: center;
   }
 
