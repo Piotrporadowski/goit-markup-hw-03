@@ -24,21 +24,19 @@ button:hover {
     background-color: var(--brand-color);
 }  
 
+
  h1 {
-    position: absolute;
-    width: 696px;
-    height: 120px;
-    left: 452px;
-    top: 280px;
-    width: 696px;
-    height: 120px;
-    left: 452px;
-    top: 280px;
     
+    width: 696px;
+    height: 120px;
+    top: 280px;
+    left: 452px;
+    font-family: 'Roboto';
+    font-style: normal;
     font-weight: 900;
     font-size: 44px;
-    line-height: 1.36;
-    text-align: center;
+    line-height: 136%;
+    
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--background-color);
@@ -49,13 +47,13 @@ button:hover {
     font-weight: 700;
     font-size: 36px;
     line-height: 4.2;
-    text-align: center;
     text-transform: capitalize;
     letter-spacing: 0.03em
 
     }
 
  h3 {
+    
     font-weight: 500;
     font-size: 16px;
     line-height: 1.9;
@@ -70,11 +68,12 @@ button:hover {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--main-color);
- }
+}
 
  ul {
     list-style-type: none;
- }
+    padding: 0px;
+}
 
 p {
     font-weight: 400;
@@ -181,10 +180,15 @@ p {
     margin-left: 100px;
 }
 .bottom-address {
-    margin-left: 70px;
+    margin-left: 110px;
 }
 
 .slider {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
     height: 600px;
     left: 0px;
     top: 80px;
@@ -192,11 +196,14 @@ p {
 }
 
 .slider-button {
-    position: absolute;
-    width: 117px;
-    height: 30px;
-    left: 742px;
-    top: 440px;
+    border: 0;
+        width: 200px;
+    height: 50px;
+    left: 700px;
+    top: 430px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    cursor: pointer; 
     
     background-color: var(--brand-color);
     color: var(--background-color);
@@ -215,8 +222,9 @@ p {
     justify-content: center;
 }
 .navigation-button {
-    width: 73px;
-    height: px;
+    border: 0;
+    width: 93px;
+    height: 38px;
     left: 639px;
     top: 174px;
     background: #F5F4FA;
@@ -226,16 +234,24 @@ p {
 
 .lorem {
     display: flex;
+    justify-content: center;
+    max-width: 1200px;
 }
 
 .what-we-do {
+    justify-content: center;
+    text-align: center;
+}
+.what-we-do-photo {
     display: flex;
     justify-content: center;
     justify-content: space-around;
     margin: 0px 170px 0px 130px;
+    max-width: 1200px;
 }
 
 .team {
+    text-align: center;
     align-items: center;
     background: #F5F4FA;
 }
@@ -263,6 +279,37 @@ p {
     gap: 30px;
     padding: 0;
     list-style: none;
-    text-align: center;
+    text-align: left;
     margin: 0px 150px 0px 150px;
+    justify-content: center;
   }
+
+  .photo {
+    margin: 0px 0px 94px 0px;
+    width: 270px;
+    height: 368px;
+    left: 215px;
+    top: 1635px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    background-color: var(--background-color);
+  }
+
+  .item {
+    box-sizing: border-box;
+    width: 370px;
+    height: 404px;
+    left: 215px;
+    top: 262px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    margin: 0px 0px 20px 0px;
+  }
+  
+  .item-text {
+    margin-left: 10px;
+  }
+  
+ 
+
+  
