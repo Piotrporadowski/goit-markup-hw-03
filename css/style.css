@@ -83,6 +83,7 @@ p {
     color:var(--secondary-color)
 }
 
+
 .navbar {
     justify-content: space-around;
     display: flex;
@@ -232,10 +233,25 @@ p {
     margin: 10px;
 }
 
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
 .lorem {
     display: flex;
     justify-content: center;
-    max-width: 1200px;
+    align-items: center;
+}
+
+.lorem p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    letter-spacing: 0.03em;
 }
 
 .what-we-do {
@@ -260,7 +276,7 @@ p {
     display: flex;
     justify-content: center;
     justify-content: space-between;
-    margin: 0px 180px 0px 140px;
+    margin: 0px 185px 0px 145px;
     box-sizing: border-box;
     text-align: center;
 }
@@ -306,7 +322,11 @@ p {
     margin: 0px 0px 20px 0px;
   }
   
-  .item-text {
+  .item h3 {
+    margin-left: 10px;
+  }
+
+  .item p {
     margin-left: 10px;
   }
   
